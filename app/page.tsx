@@ -23,7 +23,7 @@ const Page = (props: Props) => {
               className="w-1/2 p-4 text-center cursor-pointer hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out rounded-tl-lg rounded-bl-lg"
             >
               <div>
-                <h2 className="text-lg font-semibold">Today's Weather</h2>
+                <h2 className="text-lg font-semibold">{`Today's Weather`}</h2>
               </div>
             </Link>
             <Link
